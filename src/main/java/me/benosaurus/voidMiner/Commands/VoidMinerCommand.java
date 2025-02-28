@@ -26,13 +26,11 @@ public class VoidMinerCommand implements CommandExecutor {
 
             sender.sendMessage(ChatColor.RED + "Successfully disabled VoidMiner!");
             voidMinerEnabled = false;
-            System.out.println(voidMinerEnabled);
 
         } else {
 
             sender.sendMessage(ChatColor.GREEN + "Successfully enabled VoidMiner!");
             voidMinerEnabled = true;
-            System.out.println(voidMinerEnabled);
 
         }
 
