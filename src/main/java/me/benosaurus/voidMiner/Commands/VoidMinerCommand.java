@@ -1,5 +1,6 @@
 package me.benosaurus.voidMiner.Commands;
 
+import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -23,13 +24,13 @@ public class VoidMinerCommand implements CommandExecutor {
 
         if (voidMinerEnabled) {
 
-            sender.sendMessage("Successfully disabled VoidMiner!");
+            sender.sendMessage(ChatColor.RED + "Successfully disabled VoidMiner!");
             voidMinerEnabled = false;
             System.out.println(voidMinerEnabled);
 
         } else {
 
-            sender.sendMessage("Successfully enabled VoidMiner!");
+            sender.sendMessage(ChatColor.GREEN + "Successfully enabled VoidMiner!");
             voidMinerEnabled = true;
             System.out.println(voidMinerEnabled);
 
