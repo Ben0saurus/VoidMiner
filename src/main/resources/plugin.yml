@@ -1,0 +1,13 @@
+name: VoidMiner
+version: '1.0-SNAPSHOT'
+main: me.benosaurus.voidMiner.VoidMiner
+api-version: '1.21'
+description: "A plugin that allows you to toggle blocksdrops!"
+
+commands:
+  VoidMiner:
+    description: "Toggles VoidMiner"
+    usage: /togglevoidminer
+    aliases: [ togglevoidminer ]
+    permission: voidminer.command.voidminer
+    permission-message: "You do not have permission to toggle VoidMiner!"
