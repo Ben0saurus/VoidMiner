@@ -15,6 +15,6 @@ public final class VoidMiner extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        System.out.println("[VoidMiner] Successfully unloaded VoidMiner!")
     }
 }
